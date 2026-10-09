@@ -62,10 +62,14 @@ If you have any questions, suggestions, or would like to collaborate, feel free 
 * **LinkedIn:** [linkedin.com/in/phyophyomyathein96](https://www.linkedin.com/in/phyophyomyathein96/)
 
 ## 📸 Project Screenshots
-```bash
-git add README.md
-git commit -m "Add project screenshots section to README"
-git push origin main
-```
+
+![Welcome Page](images/welcome.png)
+![Login Page](images/login_page.png)
+![Dashboard](images/dashboard.png)
+![Task Page](images/task.png)
+![Activity Logs Page](images/log.png)
+![Settings Page](images/setting.png)
+![Edit Profile Page](images/profile.png)
+
 ---
-*Developed by Phyoe Phyo Mya Thein* 
+*Developed by Phyoe Phyo Mya Thein*
