@@ -1,0 +1,35 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\User;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
+
+class DatabaseSeeder extends Seeder
+{
+    use WithoutModelEvents;
+
+    /**
+     * Seed the application's database.
+     */
+    public function run(): void
+    {
+        // ၁။ Admin အကောင့် သီးသန့် ဖန်တီးခြင်း
+        User::updateOrCreate(
+            ['email' => 'admin@gmail.com'], 
+            [
+                'name' => 'System Admin',
+                'password' => Hash::make('password123'),
+                'role' => 'admin', // Admin role သတ်မှတ်ခြင်း
+            ]
+        );
+
+        // ၂။ သင်ဆောက်ပြီးသား TenantSeeder နဲ့ TaskSeeder များကို ဆက်ခေါ်ရန်
+        $this->call([
+            TenantSeeder::class,
+            TaskSeeder::class,
+        ]);
+    }
+}
