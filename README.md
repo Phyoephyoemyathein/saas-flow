@@ -64,7 +64,7 @@ If you have any questions, suggestions, or would like to collaborate, feel free 
 ## 📸 Project Screenshots
 
 ![Welcome Page](images/welcome.png)
-![Login Page](images/login_page.png)
+![Login Page](images/login.png)
 ![Dashboard](images/dashboard.png)
 ![Task Page](images/task.png)
 ![Activity Logs Page](images/log.png)
