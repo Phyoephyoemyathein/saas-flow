@@ -31,7 +31,7 @@ php artisan migrate
 php artisan serve
 ```
 
-🗄️ Database Setup
+## 🗄️ Database Setup
 To set up the database for this project, follow these steps:
 
 1. Create Database:
@@ -47,9 +47,11 @@ DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 3. Run Migrations:
 Open your terminal in the project directory and run the following command to create the necessary tables:
+```bash
 php artisan migrate
+```
 
-📞 Contact
+## 📞 Contact
 If you have any questions, suggestions, or would like to collaborate, feel free to reach out to me!
 
 GitHub: Phyoephyoemyathein
